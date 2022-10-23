@@ -1,0 +1,7 @@
+version: "3"
+services:
+  rocket-hello:
+    build: .
+    ports:
+      - "8000:8000"
+    command: ["/usr/local/bin/rocket-hello"]
